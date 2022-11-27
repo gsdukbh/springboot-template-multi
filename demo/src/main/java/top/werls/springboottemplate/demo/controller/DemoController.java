@@ -3,6 +3,7 @@ package top.werls.springboottemplate.demo.controller;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.annotation.Resource;
 import org.springdoc.webmvc.ui.SwaggerConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +13,7 @@ import top.werls.springboottemplate.common.ResultData;
 import top.werls.springboottemplate.common.SecurityRequirementConfig;
 import top.werls.springboottemplate.common.utils.MessageUtils;
 
-import javax.annotation.Resource;
+
 
 /**
  * @author Jiawei Lee
