@@ -25,8 +25,7 @@ public class SecurityConfig {
 
   @Resource private CustomizeAuthEntryPoint authEntryPoint;
   @Resource private CustomizeAccessDeniedHandler accessDeniedHandler;
-
-  @Resource public UserDetailsServiceImpl userDetailsService;
+  
 
   @Value("${env.isEnableSwagger}")
   private boolean isEnableSwagger;
